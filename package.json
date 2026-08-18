@@ -1,0 +1,27 @@
+{
+  "name": "golive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "dev:https": "node server.mjs --https",
+    "build": "next build",
+    "start": "node server.mjs --prod",
+    "start:https": "node server.mjs --prod --https"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "selfsigned": "^2.4.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.7.0"
+  }
+}
